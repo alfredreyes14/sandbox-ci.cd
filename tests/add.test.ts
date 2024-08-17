@@ -1,5 +1,5 @@
 import { expect, test, vi } from "vitest";
-import { add } from "./add";
+import { add } from "../app/utils/add";
 
 // Disables a package that checks that code is only executed on the server side.
 // Also, this mock can be defined in the Vitest setup file.

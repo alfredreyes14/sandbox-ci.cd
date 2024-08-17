@@ -1,6 +1,6 @@
 import { expect, test } from "vitest";
 import { render, screen } from "@testing-library/react";
-import Page from "./page";
+import Page from "../app/blog/[slug]/page";
 
 test("App Router: Works with dynamic route segments", () => {
   render(<Page params={{ slug: "Test" }} />);
